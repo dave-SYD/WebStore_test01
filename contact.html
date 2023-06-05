@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <meta charset="utf-8" meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> CoffeeStyle Shop</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="nav-container">
+            <div class="top-nav">
+                <a href="./index.html" class="brand-img"><img src="./images/Logo.png" id="logo-img"></a>
+                <div class="hamburgerbutton">
+                    <a href="#"><img src="./images/hamburger-button.png" class="ham-button-image"></a>
+                </div>
+                <div class="nav-list">
+                    <nav role="navigation" class="navigat">
+                    <a href="./index.html" class="nav-items"><div class="nav-points"> HOME </div><div class="top-nav-deco-line"></div> </a>
+                    <a href="./products.html" class="nav-items"><div class="nav-points"> OUR PRODUCTS </div><div class="top-nav-deco-line"></div>  </a>
+                    <a href="./blog.html" class="nav-items"><div class="nav-points"> BLOG </div><div class="top-nav-deco-line"></div>  </a>
+                    <a href="./about.html" class="nav-items"><div class="nav-points"> ABOUT </div><div class="top-nav-deco-line"></div>  </a>
+                    <a href="./contact.html" class="nav-items" id="selected-nav"><div class="nav-points"> CONTACT </div><div class="top-nav-deco-line"></div>  </a>
+                    <a href="./styleguide.html" class="nav-items"><div class="nav-points"> STYLEGUIDE </div><div class="top-nav-deco-line"></div> </a>
+                    </nav>
+                </div>
+                <a href="./cart.html" class="cart-button"> <img src="./images/Cart Icon.png" class="cart-icon"> CART <div class="cart-amount">0</div></a>
+            </div>
+        </div>        
+
+        <div class="deco-content">
+            <div class="deco-block-blog" id="contact-deco-block">
+                <div class="blog-page-header" id="contact-page-header">
+                    <h1 class="blog-page-head">Let's Connect</h1>
+                    <p class="blog-page-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis. </p>
+                </div>
+                <div class="blog-page-subheader">
+                    <div class="subheader-blog-label">Our Offices</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <div class="contact-section-overlay">
+                <div class="offices-container">
+                    <div class="office">
+                        <div class="office-one-img"></div>
+                        <div class="office-info">
+                            <div class="contact-subheader" id="location-contact">United Kingdom</div>
+                            <div class="office-headline">Canary Wharf, London</div>
+                            <p class="office-details">
+                                Jubilee Place<br>London<br>E14 5NY
+                            </p>
+                            <div class="contact-subheader" id="office-times">Opening Times</div>
+                            <div role="list" class="office-times-list">
+                                <div role="listitem" class="opening-times">Mon - Fri 08:00 to 22:00</div> 
+                                <div role="listitem" class="opening-times">Sat - 09:00 to 20:00</div>
+                                <div role="listitem" class="opening-times">Sun - 12:00 to 18:00</div>  
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="office">
+                        <div class="office-two-img"></div>
+                        <div class="office-info">
+                            <div class="contact-subheader" id="location-contact">United States</div>
+                            <div class="office-headline">Venice Beach, California</div>
+                            <p class="office-details">
+                                9219 Old Kingston Street South <br>El Monte, CA <br>91733
+                            </p>
+                            <div class="contact-subheader" id="office-times">Opening Times</div>
+                            <div role="list" class="office-times-list">
+                                <div role="listitem" class="opening-times">Mon - Wed 09:00 to 21:00</div> 
+                                <div role="listitem" class="opening-times">Thu - Sat 09:00 to 22:00</div>
+                                <div role="listitem" class="opening-times">Sun - 10:00 to 19:00</div>                                  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="contact-form-section">
+                <div class="contact-form-left-column">
+                    <div class="contact-subheader">Contact Form</div>
+                    <div class="contact-form-para">Drop us your message and I'll get back to you as soon as possible.</div>
+                    <div class="    ">
+                        <form class="contact-form-main">
+                            <label for="name">name</label>
+                            <input type="text" class="text-field" placeholder="JAMES COFFEE" id="name-field">
+                            <label for="email">email address</label>
+                            <input type="email" class="text-field" placeholder="customer@coffeestyle.io">
+                            <label for="message">your message</label>
+                            <textarea class="text-field" placeholder="Hi! I would like to ask something about mugs." id="textarea-message"></textarea>
+                            <a href="./contact.html" class="dark-button">
+                                <div>Send Message</div>
+                            </a>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contact-form-right-column">
+                    <div class="contact-form-info">
+                        <div class="contact-subheader">Contact Form</div>
+                        <div class="office-headline">CoffeeStyle. Inc</div>
+                        <p class="office-details">
+                            Pride Ave, <br>Hamlyn Heights <br>VIC 3215<br>Australia<br>
+                        </p>
+                    </div>                    
+                    <div class="contact-form-info">
+                        <div class="contact-subheader">Call Us</div>
+                        <a href="./contact.html" class="contact-form-link">+1 (415) 555-1212</a>
+                    </div>
+                    <div class="contact-form-info">
+                        <div class="contact-subheader">Email Us</div>
+                        <a href="./contact.html" class="contact-form-link">us@coffeestyle.io</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="directory-head-section">
+                <div class="about-deco-line"></div>
+                <div class="subheader-blog-label" id="directory-headline">Directory</div>
+                <div class="about-deco-line"></div>
+            </div>
+            <div class="directory-main-section">
+                <div class="directory-content">
+                    <div class="subheader-blog-label">Press</div>
+                    <div class="department-headline">Robb Kohler</div>
+                    <p class="department-details">086-374-4962<br>robb.kohler@coffeestyle.com</p>
+                </div>
+
+                <div class="directory-content">
+                    <div class="subheader-blog-label">Management</div>
+                    <div class="department-headline">Roob Dayana</div>
+                    <p class="department-details">354-341-2750<br>roob.dayana@coffeestyle.com</p>
+                </div>
+
+                <div class="directory-content">
+                    <div class="subheader-blog-label">Support</div>
+                    <div class="department-headline">Warren Marsh</div>
+                    <p class="department-details">531-403-0376<br>warren.marsh@coffeestyle.com<</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="subscribe-section">
+            <div class="subscribe-container">
+                <div class="subscribe-label">Sign up and get free coffee bags</div>
+                <div class="subscribe-heading">Coffee Updates</div>
+                <div class="subscribe-form">
+                    <form>
+                        <input type="email" id="email" name="email" class="email-input" placeholder="customer@coffeestyle.io">
+                        <a href="./subscribe.html"><div class="explore-button">
+                                <div> SUBSCRIBE </div>
+                        </div></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="footer-container">
+                <div class="footer-col" id="footer-col-one">
+                    <a href="./index.html" class="brand-img" id="footer-logo"><img src="./images/Logo.png" id="logo-img"></a>
+                    <p class="small-para">Delivering the best coffee life since 1996. From coffee geeks to the real ones.</p>
+                    <p class="smaller-para">CoffeeStyle Inc. © 1996</p>
+                </div>
+
+                <div class="footer-col">
+                    <div class="footer-head">MENU</div>
+                    <a href="./index.html" class="footer-link">Home</a>
+                    <a href="./products.html" class="footer-link">Our Products</a>
+                    <a href="./about.html" class="footer-link">About</a>
+                    <a href="./contact.html" class="footer-link">Contact</a>
+                    <a href="./styleguide.html" class="footer-link">Styeleguide</a>
+                </div>
+
+                <div class="footer-col">
+                    <div class="footer-head">FOLLOW US</div>
+                    <a href=".unknown/html" class="footer-link">Facebook</a>
+                    <a href=".unknown/html" class="footer-link">Instagram</a>
+                    <a href=".unknown/html" class="footer-link">Pinterest</a>
+                    <a href=".unknown/html" class="footer-link">Twitter</a>
+                </div>
+
+                <div class="footer-col">
+                    <div class="footer-head" id="contact-us-head">CONTACT US</div>
+                    <p class="small-para">We’re Always Happy to Help</p>
+                    <a href="mail/html" class="footer-email">us@coffeestyle.io</a>
+                    <p class="smaller-para">Powered by Webflow</p>
+                </div>                    
+            </div>
+        </div>
+    </body>
+</html>
